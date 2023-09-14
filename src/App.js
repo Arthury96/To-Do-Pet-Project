@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import AddTaskForm from "./container/AddTaskForm";
 import ComplitedBox from "./container/ComplitedBox";
@@ -30,9 +30,6 @@ function App() {
       id: 12,
     },
   ]);
-
-  console.log(JSON.stringify(task));
-  console.log(JSON.parse(JSON.stringify(task)));
 
   // Add new task function, that keep all previous state objects
   const AddTask = (name, description, priority, done, id) => {

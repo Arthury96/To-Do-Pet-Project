@@ -1,0 +1,11 @@
+/*Complited box styles  */
+
+.complited {
+  background-color: rgba(247, 222, 82, 0.205);
+  border: 3px solid rgba(255, 193, 24, 0.89);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  height: 120px;
+}

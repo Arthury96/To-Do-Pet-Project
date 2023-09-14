@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #381152, #4b12b6);
+  color: wheat;
+  font-family: "Josefin Sans", sans-serif;
+  min-width: 390px;
+}
+
+.App {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+
+.title {
+  text-align: center;
+  margin: 60px;
+  font-size: 45px;
+}
+
+.current {
+  display: flex;
+  margin: 0 50px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .current {
+    display: flex;
+    margin: 0 auto;
+  }
+}

@@ -24,7 +24,7 @@ function App() {
     },
     {
       name: "Barbershop",
-      description: "Milk, Bread, Veggies",
+      description: "13.00",
       priority: "3",
       done: false,
       id: 12,

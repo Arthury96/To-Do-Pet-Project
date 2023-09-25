@@ -1,10 +1,10 @@
-# Reddit Client API prt project
+# To Do Pet Project
 
 Hello, its simple pet project for practicing.
 
 ## Description
 
-Mostly of project is React App. Using React Hook, also CSS and HTML5 and JS. and for API I used Reddit API through fetch method.
+Base concept of this web app was make just simple planner in web. React Hooks as main too(useRef,useEffect, useState). and CSS for simple styling.
 
 ## How to lunch this.
 
@@ -15,6 +15,6 @@ Project was built using React. In project directory:
 
 ## Deploy
 
-[Project deployed on Netlify](https://www.google.com)
+[Project deployed on Netlify](https://6511c2bc4dc5144a2e77f5f3--bejewelled-heliotrope-0fc018.netlify.app/)
 
 ### Best Regards
